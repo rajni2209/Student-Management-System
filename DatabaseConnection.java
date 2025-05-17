@@ -2,9 +2,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 class DatabaseConnection{
-    private static String url = "jdbc:mysql://localhost:3306/forjdbc";
-    private static String name = "root";
-    private static String password = "rajni";
+    private static String url = "jdbc:mysql://localhost:3306/table_name";
+    private static String name = "your_database_name";
+    private static String password = "your_mySql_password";
 
     public static Connection getConnection(){
         Connection conn = null;
